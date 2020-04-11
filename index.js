@@ -114,6 +114,10 @@ ${data.testing}
 
 ${data.questions}
 
+
+---
+
+![profile image](${avatar})
 `;
 
     fs.writeFile("README.md", content, "utf8", function (err) {
