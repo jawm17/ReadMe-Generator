@@ -16,7 +16,7 @@ inquirer
         },
         {
             type: "input",
-            message: "Enter the badges for your project:",
+            message: "Enter the badges for your project (label, message, color;):",
             name: "badges"
         },
         {
@@ -130,7 +130,8 @@ ${data.questions}
 
 function makeBadges(rawBadges) {
     const badgeUrls = [];
-    const badges = rawBadges.split(";");
+    const noSpaces = rawBadges.split(" ").join("");
+    const badges = noSpaces.split(";");
     let mdBadges = "";
     badges.forEach(badge => {
         badge = badge.split(",");
