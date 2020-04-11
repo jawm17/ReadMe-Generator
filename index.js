@@ -70,53 +70,53 @@ inquirer
 function writeToFile(data, avatar) {
     const badges = makeBadges(data.badges);
     const content =
-        `${badges}
-    # ${data.title}  
+`${badges}
+# ${data.title}  
     
-    ## Description
+## Description
 
-    ${data.description}
-    
-
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
+${data.description}
     
 
-    ## Installation
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
     
-    ${data.installation}
+
+## Installation
+    
+${data.installation}
 
 
-    ## Usage 
+## Usage 
 
-    ${data.usage}
-
-
-    ## Credits
-
-    ${data.contributors}
+${data.usage}
 
 
-    ## License
+## Credits
 
-    ${data.license}
-
-
-    ## Tests 
-
-    ${data.testing}
+${data.contributors}
 
 
-    ## Questions
+## License
 
-    ${data.questions}
+${data.license}
 
-    `;
 
-    fs.writeFile("README.md", content, "utf-8", function (err) {
+## Tests 
+
+${data.testing}
+
+
+## Questions
+
+${data.questions}
+
+`;
+
+    fs.writeFile("README.md", content, "utf8", function (err) {
         if (err) {
             return console.log(err);
         }
