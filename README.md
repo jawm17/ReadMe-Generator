@@ -23,6 +23,6 @@ First, npm install the dependencies from the package.json file.
 Run the application in terminal using node.
 
 
----
+## Demo
 
-![profile image](https://avatars0.githubusercontent.com/u/56066513?v=4)
+![demonstration gif](readme.gif)
