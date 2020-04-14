@@ -25,4 +25,4 @@ Run the application in terminal using node.
 
 ## Demo
 
-![demonstration gif](readme.gif)
+![demonstration gif](demo.gif)
