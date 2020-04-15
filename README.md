@@ -9,8 +9,7 @@ This application generates a readme based on user inputs from the command line. 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+* [Demo](#demo)
     
 
 ## Installation
