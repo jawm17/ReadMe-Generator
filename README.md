@@ -24,4 +24,4 @@ Run the application in terminal using node.
 
 ## Demo
 
-![demonstration gif](demo.gif)
+![demonstration gif](demo.gif?raw=true)
