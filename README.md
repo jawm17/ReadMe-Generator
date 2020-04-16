@@ -24,4 +24,4 @@ Run the application in terminal using node.
 
 ## Demo
 
-![demonstration gif](demo.gif?raw=true)
+![demonstration gif](https://github.com/jawm17/ReadMe-Generator/blob/master/demo.gif?raw=true)
